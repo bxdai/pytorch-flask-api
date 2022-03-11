@@ -12,9 +12,11 @@ Install the dependencies:
     pip install -r requirements.txt
 
 
-Run the Flask server:
+Run the Flask server on windows:
 
-    FLASK_ENV=development FLASK_APP=app.py flask run
+    set FLASK_APP=app.py
+    flask run
+    python test_flask.py
 
 
 From another tab, send the image file in a request:
